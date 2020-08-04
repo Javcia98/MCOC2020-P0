@@ -1,15 +1,15 @@
 # MCOC2020-P0
 # Mi computador
--Marca/modelo: System 76 Serval WS
+- Marca/modelo: System 76 Serval WS
 
--Tipo: Notebook
+- Tipo: Notebook
 
--Año adquisición: 2015
+- Año adquisición: 2015
 
--Procesador:
-  -Marca/Modelo: Intel Core i7-4790K
-  -Velocidad Base: 4.00 GHz
-  -Velocidad Máxima: 4.40 GHz
+- Procesador:
+  - Marca/Modelo: Intel Core i7-4790K
+  - Velocidad Base: 4.00 GHz
+  - Velocidad Máxima: 4.40 GHz
 Numero de núcleos: 4
 Humero de hilos: 2
 Arquitectura: x86_64
