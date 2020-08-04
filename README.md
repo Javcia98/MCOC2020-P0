@@ -1,69 +1,51 @@
 # MCOC2020-P0
 # Mi computador
-- Marca/modelo: System 76 Serval WS
+- Marca/modelo: HP 14 Notebook PC
 
 - Tipo: Notebook
 
-- Año adquisición: 2015
+- Año adquisición: 2014
 
 - Procesador:
-  - Marca/Modelo: Intel Core i7-4790K
-  - Velocidad Base: 4.00 GHz
-  - Velocidad Máxima: 4.40 GHz
-Numero de núcleos: 4
-Humero de hilos: 2
-Arquitectura: x86_64
-Set de instrucciones: Intel SSE4.1, Intel SSE4.2, Intel AVX2
-Tamaño de las cachés del procesador
+  - Marca/Modelo: Intel(R) Core(TM) i3-4005U
+  - Velocidad Base: 1,70 GHz
+  - Velocidad Máxima: 1.70 GHz
+  - Numero de núcleos: 4
+  - Humero de hilos: 2
+  - Arquitectura: x64
+  - Set de instrucciones: Intel SSE4.1, Intel SSE4.2, Intel AVX2
+  
+- Tamaño de las cachés del procesador
+  - L1: 128KB
+  - L2: 512KB
+  - L3: 3000KB
+  
+- Memoria
+  - Total: 4 GB
+  - Tipo memoria: DDR3
+  - Velocidad 1600 MHz
+  - Numero de (SO)DIMM: 4
+  
+- Tarjeta Gráfica
+  - Marca / Modelo: Nvidia GeForce 820M
+  - Memoria dedicada: 1,00 GB
+  - Resolución: 1600 x 1080 x 59 hercios
+  
+- Disco 1:
+  - Marca: Samsung
+  - Tipo: SSD
+  - Tamaño: 465,76 GB
+  - Particiones: 4
+  - Sistema de archivos: NTFS
 
-L1d: 32KB
-L1i: 32KB
-L2: 256KB
-L3: 8192KB
-Memoria
 
-Total: 32 GB
-Tipo memoria: DDR3
-Velocidad 1867 MHz
-Numero de (SO)DIMM: 4
-Tarjeta Gráfica
+- Dirección MAC de la tarjeta wifi: C4:8E:8F:17:99:97‬
 
-Marca / Modelo: Nvidia GeForce GTX 980M
-Memoria dedicada: 8192 MB
-Resolución: 1920 x 1080
-Disco 1:
+- Dirección IP (Interna, del router): 192.168.0.9
 
-Marca: Samsung
-Tipo: SSD
-Tamaño: 1TB
-Particiones: 4
-Sistema de archivos: EXT4, swap
-Disco 2:
+- Dirección IP (Externa, del ISP): 200.86.137.110
 
-Marca: Samsung
-Tipo: SSD
-Tamaño: 1TB
-Particiones: 1
-Sistema de archivos: EXT4
-Disco 3:
-
-Marca: Samsung
-Tipo: SSD
-Tamaño: 1TB
-Particiones: 1
-Sistema de archivos: EXT4
-Dirección MAC de la tarjeta wifi: 5C:E0:C5:D7:EE:48
-
-Dirección IP (Interna, del router): 192.168.0.129
-
-Dirección IP (Externa, del ISP): 190.45.122.34
-
-Proveedor internet: VTR Banda Ancha S.A.
-- Procesador: Intel(R) Core(TM) i3-4005U CPU @1.70GHz 1.70GHz
-- Memoria: 4Gb 
-- Numeros de nucleos: 2 
-- Numeros de hilos: 4 
-- 1 Disco Duro
+- Proveedor internet: VTR Banda Ancha S.A.
 
 
 
