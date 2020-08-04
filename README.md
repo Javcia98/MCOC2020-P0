@@ -32,7 +32,7 @@
   - Resolución: 1600 x 1080 x 59 hercios
   
 - Disco 1:
-  - Marca: Samsung
+  - Marca: WDC WDS500G2B0A-00SM50
   - Tipo: SSD
   - Tamaño: 465,76 GB
   - Particiones: 4
