@@ -59,8 +59,9 @@
  Python 3.7
 - ¿Qué versión de numpy está usando?<br>
  1.16.4
-- Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. 
-
+- Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. <br>
+Solamente se utiliza un procesador. <br>
+![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/procesador%20ejecutando%20el%20codigo.jpg)
 
 
 
