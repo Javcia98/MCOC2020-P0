@@ -48,7 +48,7 @@
 - Proveedor internet: VTR Banda Ancha S.A.
 
 # Desempeño MATMUL
-- 
+![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/graficos.jpg)
 
 
 
