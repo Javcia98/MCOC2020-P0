@@ -51,6 +51,7 @@
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/graficos.jpg)
 
 - ¿Como difiere del gráfico del profesor/ayudante?
+Mi grafico difere del profesor/ayudante en el grafico de arriba en donde se puede apreciar perfectamente que las "lineas de color" no son iguales 
 - ¿A qué se pueden deber las diferencias?
 - El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
 - ¿Qué versión de python está usando?
