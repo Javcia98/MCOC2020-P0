@@ -51,11 +51,14 @@
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/graficos.jpg)
 
 - ¿Como difiere del gráfico del profesor/ayudante? <br>
-Mi grafico difere del profesor/ayudante en el grafico de arriba en donde se puede apreciar perfectamente que las "lineas de color" no son iguales 
-- ¿A qué se pueden deber las diferencias?
+ Mi grafico difere del profesor/ayudante en el grafico de arriba en donde se puede apreciar perfectamente que las "lineas de color" no son iguales. Otra diferencia es que todas las lineas del grafico del profesor empiezan en 0,1(ms) y termian en 10(s) aproximadamente, muy distinto de mi gráfico donde las lineas empiezan en el 0,1(s) y terminan en el 10(min).
+- ¿A qué se pueden deber las diferencias? <br>
+ Las diferencias de "forma" de las lineas se debe plenamente en que estas fueron generadas aleatoriamente por lo que no deberia haber una exactamente igual a la otra. La diferencia de tiempo probablemente se debe a que el procesador del profesor o ayudante es mejor que el mio por lo que puede realizar la misma tarea en menos tiempo
 - El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
-- ¿Qué versión de python está usando?
-- ¿Qué versión de numpy está usando?
+- ¿Qué versión de python está usando? <br>
+ Python 3.7
+- ¿Qué versión de numpy está usando?<br>
+ 1.16.4
 - Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. 
 
 
