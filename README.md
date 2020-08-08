@@ -64,6 +64,6 @@
 Solamente se utiliza un procesador. <br>
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/procesador%20ejecutando%20el%20codigo.jpg)
 
-
+ 
 
 
