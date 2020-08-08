@@ -45,7 +45,7 @@ plt.yticks(tricky, tricky_txt)
 trickx = [10,20,50,100,200,500,1000,2000,5000,10000,20000]
 trickx_txt = ["","","","","","","","","","",""]
 plt.xticks(trickx, trickx_txt)
-
+plt.title("Rendimiento A@B")
 plt.show() 
 
 plt.plot(lista_N,lista_mem,"-o",  color='b')
