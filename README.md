@@ -79,6 +79,6 @@
  1.16.4
 - Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. <br>
  Se utilizan 4 procesadores. <br>
-![alt text]()
+![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/imagen%20procesadores%20mimatmul.png)
 
 
