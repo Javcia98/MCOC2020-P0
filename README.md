@@ -61,24 +61,24 @@
 - ¿Qué versión de numpy está usando?<br>
  1.16.4
 - Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. <br>
-Solamente se utiliza un procesador. <br>
+ Se utilizan 4 procesadores. <br>
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/procesador%20ejecutando%20el%20codigo.jpg)
 
 # Desempeño MIMATMUL
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/graficos%20de%20mimatmul.png)
 
 - ¿Como difiere del gráfico del profesor/ayudante? <br>
- 
+ A grandes rasgos los graficos se ven muy parecidos con una clara tendencia lineal ascendente pero difieren en que en mi grafico hay casos en que la curva no es lineal y presenta unas pequeñas "desviaciones" las cuales se pueden apreciar claramente en el grafico ((como la curva de color rojo). También, en general, los calculos en el grafico del ayudante para cualquier N se demoraban menos tiempo que en mi grafico.
 - ¿A qué se pueden deber las diferencias? <br>
- 
+ Estas diferencias seguramente se deben a que el codigo que use para el calculo de la multiplicacion de matrices fueron fragmentos de muchos codigos que encontre y los ordene para que me hicieran mas sentido para mi... seguramente esto hizo que el calculo no fuera el mas eficiente si se le compara con el que uso el ayudante. Tambien entra en juego los diferentes tipos de procesadores usados en cada computador. En relacion a los "saltos" que ocurren en algunas de las curvas estos pueden deberse a que al principio solo se usa un solo procesador logico para hacer los calculos, pero al pasar a un N mas grande se ve en la necesidad de usar los demas... aqui se explica las diferencias de tiempo con respecto a N.
 - El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser? <br>
- 
+ Como se dijo anteriormente, el grafico del tiempo transcurrido no es lineal ya que presenta estos "saltos" de tiempo, ese comportamiento se debe a que al principio se usa solo un procesador y a medida que va aumentando N se van incorporando mas procesadores provocando estos saltos de tiempo y por consiguente este comportamiento no lineal.
 - ¿Qué versión de python está usando? <br>
  Python 3.7
 - ¿Qué versión de numpy está usando?<br>
  1.16.4
 - Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. <br>
-Solamente se utiliza un procesador. <br>
+ Se utilizan 4 procesadores. <br>
 ![alt text]()
 
 
