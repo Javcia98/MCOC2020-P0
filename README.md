@@ -82,8 +82,8 @@
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/imagen%20procesadores%20mimatmul.png)
 
  # Entrega4 - Desempeño de INV
- ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/imagen%20procesadores%20mimatmul.png)
- ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/imagen%20procesadores%20mimatmul.png)
+ ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/graficos%20TYPES.png)
+ ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/grafico%20memoria%20TYPES.png)
  Al mirar el grafico podemos percatarnos que en mi sistema utilizar la opcion "overwrite_a=True" resulta en una ligera ganancia de desempeño (tiempo) al ser comparada con los otros casos. Además se debe agregar que hay 2 graficos en los que no se pudo considerar el primer caso ya que  linalg de numpy no soportaba el uso de float16 ni tampoco de float 128 por lo que en este tipos de datos no se pudo analizar si el caso 1 era el menor o no. Otro punto interesante de analizar es ver como se comporta cada tipo de dato al momento de analizar la memoria que ocupa. donde se muestra una clara tendencia referente a los tipos de datos con mayor uso de bits sean los que mas memoria ocupan (obersrvar grafico) <br>
  
 - ¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)? <br>
