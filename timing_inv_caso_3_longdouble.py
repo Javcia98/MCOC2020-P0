@@ -32,7 +32,7 @@ for N in lista_N:
     dt = t2-t1
     lista_dt_scipyT.append(dt)
     
-    size =2*(N**2)*128 #bytes
+    size =2*(N**2)*64 #bytes
     lista_mem.append(size)
 
 print (lista_dt_scipyT)
