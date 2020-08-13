@@ -97,3 +97,6 @@ Para el caso 2:
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/procesador%20caso2.png) <br>
 Para el caso 3:
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/procesador%20caso3.png)
+
+pip install grip  
+grip README.md
