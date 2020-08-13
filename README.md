@@ -92,8 +92,8 @@ Segun mi parecer el algoritmo que utiliza el caso 1 (al ser el mas  relativament
  Con respeto a la estructura de caché, estos son una forma de acceder muy rapidamente a la información, entonces al partir con operaciones de matrices pequeñas se parte llenando una caché. Este caché seguira guardando informacion (la cual se puede acceder de manera muy rapida) hasta llenarse, en ese momento otra caché empieza a almacenar la informacion de las operaciones (fenomeno conocido como paralelismo) y asi sucesivamente. Una vez que todas las cachés estan llenas se prosigue a utilizar la memoria RAM que es mas lenta si se le compara con los cachés esto hace que se deteriore el desempeño del equipo ya que no podra seguir con la velocidad de antes. Es por eso que cada vez que aumenta el numero de N el tiempo de demora aumenta cada vez mas, realizando de vez en cuando unos "saltos" que demuestras este tipo de cambios del procesador y las cachés. 
  - A continuación se presenta el comportamiento de los procesadores al ejecutar los programas para cada caso: <br>
  Para el caso 1:
-![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/graficos%20de%20mimatmul.png) <br> 
+![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/procesador%20caso1.png) <br> 
 Para el caso 2:
-![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/graficos%20de%20mimatmul.png) <br>
+![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/procesador%20caso2.png) <br>
 Para el caso 3:
-![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/graficos%20de%20mimatmul.png)
+![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/procesador%20caso3.png)
