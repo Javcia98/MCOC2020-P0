@@ -83,9 +83,17 @@
 
  # Entrega4 - Desempeño de INV
  ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/graficos%20TYPES.png)
- ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/grafico%20memoria%20TYPES.png)
+ ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/grafico%20memoria%20TYPES.png) <br>
  Al mirar el grafico podemos percatarnos que en mi sistema utilizar la opcion "overwrite_a=True" resulta en una ligera ganancia de desempeño (tiempo) al ser comparada con los otros casos. Además se debe agregar que hay 2 graficos en los que no se pudo considerar el primer caso ya que  linalg de numpy no soportaba el uso de float16 ni tampoco de float 128 por lo que en este tipos de datos no se pudo analizar si el caso 1 era el menor o no. Otro punto interesante de analizar es ver como se comporta cada tipo de dato al momento de analizar la memoria que ocupa. donde se muestra una clara tendencia referente a los tipos de datos con mayor uso de bits sean los que mas memoria ocupan (obersrvar grafico) <br>
  
 - ¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)? <br>
-
+Segun mi parecer el algoritmo que utiliza el caso 1 (al ser el mas  relativamente rapido cuando fue comparado) es el de la solucion unica ya que es el algoritmo que utiliza la menor cantidad de variables al calcular las inversas, solo usa  ixj + 1 donde ese 1 es el determinante. Ahora para el caso 2 el cual es el que peor desempeño tiene seguramente puede usar el metodo de Cayley-Hamilton ya que este algoritmo usa una serie de operaciones matematicas ( sumatorias, pitatorias,potencias,factorial etc) por lo que seguramente el realizar estas operaciones y creas variables que guarden cada parte de estas es la razon de la diferencia de tiempo. Por ultimo el caso 3 al no ser el mas rapido ni el mas lento es probable que el metodo usado sea  la Inversion de Blockwise, esto debido a que igual usa un metodo parecido para el caso 1 pero con algunas operaciones extra.
 - ¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso? (Ver clase 10 Agosto)<br>
+ Con respeto a la estructura de caché, estos son una forma de acceder muy rapidamente a la información, entonces al partir con operaciones de matrices pequeñas se parte llenando una caché. Este caché seguira guardando informacion (la cual se puede acceder de manera muy rapida) hasta llenarse, en ese momento otra caché empieza a almacenar la informacion de las operaciones (fenomeno conocido como paralelismo) y asi sucesivamente. Una vez que todas las cachés estan llenas se prosigue a utilizar la memoria RAM que es mas lenta si se le compara con los cachés esto hace que se deteriore el desempeño del equipo ya que no podra seguir con la velocidad de antes. Es por eso que cada vez que aumenta el numero de N el tiempo de demora aumenta cada vez mas, realizando de vez en cuando unos "saltos" que demuestras este tipo de cambios del procesador y las cachés. 
+ - A continuación se presenta el comportamiento de los procesadores al ejecutar los programas para cada caso: <br>
+ Para el caso 1:
+![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/graficos%20de%20mimatmul.png) <br> 
+Para el caso 2:
+![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/graficos%20de%20mimatmul.png) <br>
+Para el caso 3:
+![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/graficos%20de%20mimatmul.png)
