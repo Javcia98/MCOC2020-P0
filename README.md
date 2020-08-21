@@ -108,11 +108,8 @@ Como se puede apreciar en el grafico podemos ver que ciertas funciones tienen me
 
 Codigo de ensamblaje matriz laplaciana: <br>
 ```
-import numpy as np
-import scipy.linalg as splinalg
-from time import perf_counter
-from numpy import zeros,fill_diagonal,float32
-def matriz_laplaceana(N,dtype=float32):
+from numpy import zeros, fill_diagonal, float64
+def matriz_laplaceana(N,dtype=float64):
     
     A=zeros((N,N), dtype=dtype)
     fill_diagonal(A,2)
@@ -126,3 +123,7 @@ def matriz_laplaceana(N,dtype=float32):
 
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/Entrega%207/MATMUL%20MATRICES%20LLENAS.png) <br>
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/Entrega%207/MATMUL%20MATRICES%20DISPERSAS.png) <br>
+1. Para este caso se puede apreciar que la diferencia de tiempo para la solucion entre los dos tipos de matrices es muy desigual, el tiempo de solucion de la matriz llena es mucho mayor a la de las dispersas. Lo anterior se puede deber simplemente a que los calculos en las dispersas eran solo las diagonales y no la matriz entera por lo era evidente que se iba a demorar mucho menos a su contraparte. Por otro lado el tiempo de ensamblaje es muy parecido ya que para los valors mas grande e N estos se demoraron no mas de 1 segundo. Cabe destacar que el N max para este calculo fue de 800 porque mas que eso el codigo se demoraba mucho en correr, de igual manera se llevo a una exigencia razonable al computador. <br>
+2. La complejidad asintótica para los 2 casos es que el programa no va a terminar nunca de, primero crear las matrices y segundo en resolverlas, osea que no pasaria de la primera parte. Esto crearía un problema en la memoria del computador donde tarde o temprano (dependiendo del tipo) esta se acabará y no habra lugar para guardar mas informacion por lo que el programa dejaria de correr y no se podria cumplir la tarea. <br>
+3. ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/Entrega%207/INV%20MATRICES%20LLENAS.png) <br>
+![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/Entrega%207/INV%20MATRICES%20DISPERSAS.png) <br>
