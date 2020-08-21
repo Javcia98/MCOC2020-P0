@@ -135,3 +135,7 @@ def matriz_laplaceana(N,dtype=float64):
 4. <br>
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/Entrega%207/SOLVE%20MATRICES%20LLENAS.png) <br>
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/Entrega%207/SOLVE%20MATRICES%20DISPERSAS.png) <br>
+1. Para esta operacion al igual que MATMUL se ve una diferencia clara en los tiempos de solucion donde las matrices dispersas son claramente mas efectivas que las llenas.Esta dierencia de tiempo se puede deber a que para hacer el sistema de ecuaciones es importante tener en consideracion todas las variables entonces al tene run 0 es mas facil eliminarlas y resolver el sistema mas rapidamente. En terminos de tiempo de ensamblado los dos tipos de matrices tienen tiempos casi identicos. <br>
+2.La complejidad asintótica para los 2 casos es que el programa no va a terminar nunca de, primero crear las matrices y segundo en resolverlas, osea que no pasaria de la primera parte. Esto crearía un problema en la memoria del computador donde tarde o temprano (dependiendo del tipo) esta se acabará y no habra lugar para guardar mas informacion por lo que el programa dejaria de correr y no se podria cumplir la tarea. <br>
+3. <br>
+4. <br>
