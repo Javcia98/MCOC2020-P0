@@ -105,3 +105,5 @@ Como se puede apreciar en el grafico podemos ver que ciertas funciones tienen me
 
 
 # Matrices dispersas y complejidad computacional
+![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/Entrega%207/MATMUL%20MATRICES%20LLENAS.png) <br>
+![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/Entrega%207/MATMUL%20MATRICES%20DISPERSAS.png) <br>
