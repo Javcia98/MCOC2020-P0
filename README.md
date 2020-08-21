@@ -105,5 +105,24 @@ Como se puede apreciar en el grafico podemos ver que ciertas funciones tienen me
 
 
 # Matrices dispersas y complejidad computacional
+
+Codigo de ensamblaje matriz laplaciana: <br>
+```
+import numpy as np
+import scipy.linalg as splinalg
+from time import perf_counter
+from numpy import zeros,fill_diagonal,float32
+def matriz_laplaceana(N,dtype=float32):
+    
+    A=zeros((N,N), dtype=dtype)
+    fill_diagonal(A,2)
+    for i in range(N):
+        for j in range(N):
+            if (abs(i-j)==1):
+                A[i,j]=-1       
+    return A
+ ```
+ 
+
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/Entrega%207/MATMUL%20MATRICES%20LLENAS.png) <br>
 ![alt text](https://github.com/Javcia98/MCOC2020-P0/blob/master/Entrega%207/MATMUL%20MATRICES%20DISPERSAS.png) <br>
